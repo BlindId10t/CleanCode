@@ -1,0 +1,72 @@
+//ok
+if (true) printf("k");
+else {
+	printf("no");
+	cout << "awsm";
+}
+
+//ok
+while (true) {
+		ok1();
+		ok2();
+				
+		goto someLBL;
+		DEADStatement;
+		
+		someLBL: 
+		stat1;
+		stat2;				
+}
+
+//ok
+while (true) {
+	switch (c) {
+		case 1: break;
+		case 2: continue;
+	}
+	break;
+}
+
+//ok
+switch (c)
+{
+	case '1': {
+		cout << "ff";
+		break;}
+	case '2': 
+	case '3': cout << ok();
+
+	default: cout << "error";
+}
+	
+//ok
+while (true) {
+	if (sms) {
+		if (emmm)
+			continue;
+		i++;
+	}
+	else 
+		break;
+}
+
+//ok
+do 
+{
+	thing1;
+	if (thing2) continue;
+	else break;
+	goto lbl666;
+	thingdead;
+} 
+while (true);
+
+//ok
+do {
+	int rrr =55;
+SMLBL:
+	rrr++;
+	rrr+33;
+} while(true);
+goto SMLBL;
+
